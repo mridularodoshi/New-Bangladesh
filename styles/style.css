@@ -25,8 +25,12 @@ body {
     font-weight: 600;
     padding: 17px 34px;
     margin-top: 24px;
+    
+    transition: 0.5s;
 }
-
+.btn-primary:hover{
+    background-color: crimson;
+}
 .display-flex {
     display: flex;
 }
@@ -120,7 +124,25 @@ main>section {
     margin-top: 24px;
 
 }
+#btn-one{
+    background-color: rgb(84, 144, 245);
+}
+#btn-one:hover{
+    background-color: crimson;
+}
+#btn-two{
+    background-color: rgb(9, 161, 92);
+}
+#btn-two:hover{
+    background-color: crimson;
+}
+#btn-three{
+    background-color: rgb(255, 194, 57);
 
+}
+#btn-three:hover{
+    background-color: crimson;
+}
 /* quote styles */
 .quote-container {
     box-sizing: border-box;
@@ -128,6 +150,10 @@ main>section {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 48px 24px;
+
+    background-image: url('../assets/quote-bg.png');
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
 
 }
 
@@ -138,9 +164,7 @@ main>section {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-    background-image: url('../assets/quote-bg.png');
-    background-position: top left;
-    background-repeat: no-repeat;
+   
 
 }
 
@@ -190,6 +214,10 @@ main>section {
 
 }
 
+.money-cards:hover{
+    background-color: cornflowerblue;
+}
+
 .taka {
     color: rgba(14, 14, 14, 0.8);
     font-size: 40px;
@@ -201,6 +229,10 @@ main>section {
 
 #two-hun {
     background-color: rgb(198, 228, 214);
+   
+}
+#two-hun:hover{
+    background-color: cornflowerblue;
 }
 
 .donate input[type=text] {
@@ -226,14 +258,19 @@ main>section {
     padding: 18px 40px;
     border: none;
     width: 600px;
-    height: 56px;
+    height: 55px;
 }
 
-.subs-btn {
+#subs-btn {
     height: 56px;
+    border-radius: 0px 8px 8px 0px;
 }
-
-.input {
+#subs-para{
+    width: 622px;
+    margin: 16px auto;
+    
+}
+.form {
     margin-bottom: 25px;
 }
 
@@ -241,6 +278,7 @@ main>section {
     color: rgba(14, 14, 14, 0.3);
 
 }
+
 
 /* footer styles */
 footer {
