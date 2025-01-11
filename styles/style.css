@@ -225,17 +225,45 @@ main>section {
     background: rgb(255, 255, 255);
     padding: 18px 40px;
     border: none;
-    width:600px;
+    width: 600px;
     height: 56px;
 }
-.subs-btn{
+
+.subs-btn {
     height: 56px;
 }
-.input{
+
+.input {
     margin-bottom: 25px;
 }
 
-::placeholder{
-   color: rgba(14, 14, 14, 0.3);
+::placeholder {
+    color: rgba(14, 14, 14, 0.3);
 
+}
+
+/* footer styles */
+footer {
+    background-color: rgb(255, 255, 255);
+    height: 226px;
+    padding: 50px 60px;
+    margin-top: 80px;
+}
+
+.foot-title {
+    color: rgb(14, 14, 14);
+    
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 32px;
+    
+}
+footer hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    
+    
+}
+footer div{
+    margin-top: 32px;
 }
