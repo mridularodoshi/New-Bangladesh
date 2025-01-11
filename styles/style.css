@@ -3,3 +3,70 @@
     margin: 0;
     padding: 0;
 }
+
+/* adding fonts */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* shared styles*/
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.btn-primary {
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    margin-top: 24px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.bg-secondary {
+    background-color: rgb(198, 228, 214);
+
+}
+
+/* banner styles */
+header {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    border-radius: 24px;
+
+}
+
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-descrip {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 16px;
+    line-height: 67px;
+}
+.banner-content{
+    width: 622px;
+}
+.banner-dp{
+   max-width: 43%;
+}
