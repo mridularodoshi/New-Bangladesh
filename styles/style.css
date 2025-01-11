@@ -116,3 +116,36 @@ main>section {
     margin-top: 24px;
 
 }
+
+/* quote styles */
+.quote-container {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 24px;
+   
+}
+
+.quote {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-image: url('../assets/quote-bg.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    
+}
+
+.quote-by {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 4px;
+}
